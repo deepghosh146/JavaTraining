@@ -13,5 +13,6 @@ public class WierdProgram {
         else{
             System.out.println("Not Weird");
         }
+        input.close();
     }
 }
