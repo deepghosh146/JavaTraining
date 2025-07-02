@@ -37,5 +37,9 @@ public class ActivitySelection {
         }
         int totalActivities = selected.size();
         System.out.println("Total activities: " + totalActivities);
+
+         for(Activity act : selected){
+            System.out.println("start " + act.start + " end " + act.end);
+        }
     }
 }
